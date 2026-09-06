@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Share your Smart India Hackathon participation details with Hari Sandhu Singh.">
+  <title>Participate in SIH — Hari Sandhu Singh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="sih.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="Hari Sandhu Singh home">HS<span>.</span></a>
+      <nav class="nav-links" aria-label="Participation navigation">
+        <a href="sih.html">SIH project</a>
+        <a href="index.html#about">About</a>
+        <a class="nav-contact" href="mailto:harisandhusingh@gmail.com">Let's talk <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main class="sih-form-page">
+      <section class="sih-form-heading">
+        <p class="eyebrow"><span class="status-dot"></span> Smart India Hackathon / Participate</p>
+        <h1>Let’s build<br><em>together.</em></h1>
+        <p class="sih-form-intro">Want to participate with me or share an SIH idea? Send your details and I’ll get back to you.</p>
+      </section>
+
+      <form class="sih-interest-form" id="sih-interest-form">
+        <div class="sih-form-grid">
+          <label>Name<input type="text" name="name" autocomplete="name" required></label>
+          <label>Gmail<input type="email" name="email" autocomplete="email" placeholder="you@gmail.com" required></label>
+          <label>Phone number<input type="tel" name="phone" autocomplete="tel" pattern="[0-9+() .-]{7,}" required></label>
+          <label>Branch<input type="text" name="branch" placeholder="CSE, ECE, IT..." required></label>
+          <label>Year<input type="text" name="year" placeholder="1st, 2nd, 3rd, 4th" required></label>
+          <label class="sih-form-wide">Your idea<textarea name="idea" rows="6" placeholder="Tell me about your SIH idea" required></textarea></label>
+        </div>
+        <button class="sih-submit" type="submit">Send details <span>↗</span></button>
+        <p class="sih-form-status" id="sih-form-status" role="status" aria-live="polite"></p>
+      </form>
+    </main>
+
+    <footer class="site-footer"><span>© 2026 Hari Sandhu Singh</span><span>CSE Cybersecurity · Web Development</span><div><a href="sih.html">Back to SIH</a><a href="https://www.linkedin.com/in/hari-sandhu-singh-2603353b3" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></footer>
+  </div>
+  <script src="sih-form.js"></script>
+</body>
+</html>
